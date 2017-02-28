@@ -12,6 +12,7 @@
 		BCFFCA8A1E657059003DD4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFFCA881E657059003DD4E7 /* Main.storyboard */; };
 		BCFFCA8C1E657059003DD4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFFCA8B1E657059003DD4E7 /* Assets.xcassets */; };
 		BCFFCA8F1E657059003DD4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFFCA8D1E657059003DD4E7 /* LaunchScreen.storyboard */; };
+		BCFFCA971E657087003DD4E7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFCA961E657087003DD4E7 /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BCFFCA8B1E657059003DD4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCFFCA8E1E657059003DD4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCFFCA901E657059003DD4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFFCA961E657087003DD4E7 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BCFFCA841E657059003DD4E7 /* AppDelegate.swift */,
 				BCFFCA861E657059003DD4E7 /* ViewController.swift */,
+				BCFFCA961E657087003DD4E7 /* RadioButton.swift */,
 				BCFFCA881E657059003DD4E7 /* Main.storyboard */,
 				BCFFCA8B1E657059003DD4E7 /* Assets.xcassets */,
 				BCFFCA8D1E657059003DD4E7 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFFCA971E657087003DD4E7 /* RadioButton.swift in Sources */,
 				BCFFCA871E657059003DD4E7 /* ViewController.swift in Sources */,
 				BCFFCA851E657059003DD4E7 /* AppDelegate.swift in Sources */,
 			);
@@ -262,7 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Radio Button/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.Radio-Button";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahinahmed.Radio-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +278,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Radio Button/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.Radio-Button";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahinahmed.Radio-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

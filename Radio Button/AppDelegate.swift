@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Radio Button
 //
-//  Created by Silicon Orchard Ltd on 2/28/17.
-//  Copyright © 2017 Silicon Orchard Ltd. All rights reserved.
+//  Created by Nahin Ahmed on 2/28/17.
+//  Copyright © 2017 Nahin Ahmed. All rights reserved.
 //
 
 import UIKit
